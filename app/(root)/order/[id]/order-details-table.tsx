@@ -81,7 +81,7 @@ const OrderDetailsTable = ({ order }: { order: Order }) => {
                   </TableRow>
                 </TableHeader>
                 <TableBody>
-                  {orderitems.map((item: any) => (
+                  {orderitems.map((item) => (
                     <TableRow key={item.slug}>
                       <TableCell>
                         <Link

@@ -86,7 +86,7 @@ const ProfileForm = () => {
                 <FormControl>
                   <Input
                     placeholder="Name"
-                    className="input-field"
+                    className="input-field focus:outline-none focus:ring-0 focus-visible:outline-none focus-visible:ring-0"
                     {...field}
                   />
                 </FormControl>

@@ -43,6 +43,7 @@ const SignUpForm = () => {
             type="text"
             autoComplete="name"
             defaultValue={signUpDefaultValues.name}
+            className="focus:outline-none focus:ring-0 focus-visible:outline-none focus-visible:ring-0"
           />
         </div>
         <div>
@@ -55,6 +56,7 @@ const SignUpForm = () => {
             type="email"
             autoComplete="email"
             defaultValue={signUpDefaultValues.email}
+            className="focus:outline-none focus:ring-0 focus-visible:outline-none focus-visible:ring-0"
           />
         </div>
         <div>
@@ -68,6 +70,7 @@ const SignUpForm = () => {
             required
             autoComplete="password"
             defaultValue={signUpDefaultValues.password}
+            className="focus:outline-none focus:ring-0 focus-visible:outline-none focus-visible:ring-0"
           />
         </div>
         <div>
@@ -81,6 +84,7 @@ const SignUpForm = () => {
             required
             autoComplete="confirmPassword"
             defaultValue={signUpDefaultValues.confirmPassword}
+            className="focus:outline-none focus:ring-0 focus-visible:outline-none focus-visible:ring-0"
           />
         </div>
         <div>

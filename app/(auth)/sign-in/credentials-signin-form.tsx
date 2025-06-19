@@ -44,6 +44,7 @@ const CredentialsSignInForm = () => {
             required
             autoComplete="email"
             defaultValue={signInDefaultValues.email}
+            className="focus:outline-none focus:ring-0 focus-visible:outline-none focus-visible:ring-0"
           />
         </div>
         <div>
@@ -57,6 +58,7 @@ const CredentialsSignInForm = () => {
             required
             autoComplete="password"
             defaultValue={signInDefaultValues.password}
+            className="focus:outline-none focus:ring-0 focus-visible:outline-none focus-visible:ring-0"
           />
         </div>
         <div>
